@@ -9,4 +9,4 @@ databases, and applied AI. Lab environments include AWS-provisioned resources; e
 
 | Lab Artifact | Focus |
 | ------------ | ----- |
-| [**Cloud Systems Operations**](./cloud-systems-operations/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |
+| [**Cloud SysOps**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |

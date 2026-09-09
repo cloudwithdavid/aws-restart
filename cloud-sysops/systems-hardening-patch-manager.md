@@ -98,7 +98,7 @@ This kept the approval policy intact while changing how updates still waiting fo
 
 I then reran the Windows patch workflow and checked the resulting compliance state.
 
-## Final Verification — Success
+## Final Verification — Compliance
 
 Patch Manager reported the managed fleet at **100% compliance**, with no nodes reporting missing patches, failed patches, pending reboots, or available-security-update noncompliance.
 
@@ -119,5 +119,3 @@ The troubleshooting process clarified the core components of patch-management:
 - **Patch groups make policy scalable.** Instead of assigning patch policy to machines individually, systems can be grouped by tags and managed under the same baseline as a fleet.
 - **Execution and compliance are different.** A successful patch run does not necessarily mean the system is compliant.
 - **The real goal is controlled, observable system state.** Define policy, apply it consistently, and verify the outcome.
-
-
