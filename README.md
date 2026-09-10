@@ -7,6 +7,6 @@ databases, and applied AI. Lab environments include AWS-provisioned resources; e
 
 # Labs
 
-| Lab Artifact | Focus |
+|   Artifact   | Focus |
 | ------------ | ----- |
 | [**Cloud SysOps**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |

@@ -4,6 +4,8 @@
 
 Cloud infrastructure does not stop at deployment. These labs demonstrate the operational layer required to manage running cloud systems consistently at scale through centralized management, repeatable configuration, secure access, maintenance, and compliance verification with AWS Systems Manager.
 
+Centralized, secure, and consistent operation of cloud systems at scale.
+
 ## Labs
 
 ### [01 — Systems Hardening with Patch Manager](systems-hardening-patch-manager.md)
