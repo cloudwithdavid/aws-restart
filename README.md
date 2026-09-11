@@ -9,4 +9,5 @@ databases, and applied AI. Lab environments include AWS-provisioned resources; e
 
 |   Artifact   | Focus |
 | ------------ | ----- |
-| [**Cloud SysOps**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |
+| [**Cloud Systems Operations**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |
+| [**Elastic Compute Architecture**](./scaling-load-balancing/) | Multi-AZ load balancing, health-aware routing, and demand-based EC2 Auto Scaling with CloudWatch target tracking |
