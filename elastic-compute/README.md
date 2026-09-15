@@ -14,7 +14,18 @@ The completed architecture placed an internet-facing Application Load Balancer a
 
 The workload moved behind an Application Load Balancer, with private EC2 capacity distributed across two Availability Zones and automatically adjusted by the Auto Scaling group.
 
-## Lab Environment
+### Lab Environment
+
+AWS re/Start provided the base network environment and an existing configured EC2 web server.
+
+The environment included:
+
+- A VPC spanning two Availability Zones
+- Public subnets for the internet-facing Application Load Balancer
+- Private subnets for the application instances
+- An existing configured web server used as the source for a reusable AMI
+
+My work focused on transforming that single-server starting point into an elastic compute tier by creating the AMI, Application Load Balancer, target group, launch template, Auto Scaling group, and target-tracking scaling policy, then generating load to verify automatic scale-out.
 
 ## Reproducible Compute
 
