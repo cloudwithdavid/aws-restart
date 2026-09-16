@@ -1,3 +1,4 @@
+<img width="2508" height="627" alt="aws-restart-banner" src="https://github.com/user-attachments/assets/8b9a5e09-ca19-498c-89f8-1dbeae53ab52" />
 # AWS re/Start Portfolio
 
 ## About
