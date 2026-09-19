@@ -11,7 +11,8 @@ cloud infrastructure, systems operations, automation, serverless, databases, and
 | ------------ | ----- |
 | [**Cloud Systems Operations**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |
 | [**Elastic Compute Architecture**](./elastic-compute/) | Transforming an EC2 web server into a multi-AZ, load-balanced, health-aware, automatically scaling compute tier |
-| [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building and troubleshooting serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
+| [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
+| [**Containerized Compute**](./containerized-compute/) | Deploying containerized applications on Amazon ECS w/ EC2, task definitions, services, and Auto Scaling |
 
 ## ℹ️ About AWS re/Start
 
