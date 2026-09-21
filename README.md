@@ -13,6 +13,7 @@ cloud infrastructure, systems operations, automation, serverless, databases, and
 | [**Elastic Compute Architecture**](./elastic-compute/) | Transforming an EC2 web server into a multi-AZ, load-balanced, health-aware, automatically scaling compute tier |
 | [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
 | [**Containerized Compute**](./containerized-compute/) | Deploying containerized applications on Amazon ECS w/ EC2, task definitions, services, and Auto Scaling |
+| [**Storage & Recovery**](./storage-recovery/) | Managing persistent storage through EBS volumes, snapshots, restore workflows, S3 synchronization, and version recovery |
 
 ## ℹ️ About AWS re/Start
 
