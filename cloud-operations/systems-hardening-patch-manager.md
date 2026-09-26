@@ -6,7 +6,7 @@ Patching individual servers manually becomes difficult to manage as an environme
 
 In this AWS re/Start lab, I used AWS Systems Manager Patch Manager to manage patching across Linux and Windows EC2 fleets. An unexpected Windows compliance result also became a troubleshooting exercise in separating patch execution from compliance evaluation.
 
-## Key Concepts
+### Key Concepts
 
 - **AWS Systems Manager** — Centralized management service for operating and maintaining managed compute resources.
 - **Patch Manager** — Systems Manager capability for defining patch policy, applying patches across managed nodes, and tracking patch compliance.
@@ -14,7 +14,7 @@ In this AWS re/Start lab, I used AWS Systems Manager Patch Manager to manage pat
 - **Patch group** — Uses tags to group managed instances under the same patch baseline.
 - **Compliance** — Reports whether a managed instance's patch state satisfies the baseline and its compliance rules.
 
-## Lab Environment
+### Lab Environment
 
 AWS re/Start provided:
 

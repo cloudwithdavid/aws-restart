@@ -9,7 +9,7 @@ cloud infrastructure, systems operations, automation, serverless, databases, and
 
 |   Labs   | Focus |
 | ------------ | ----- |
-| [**Cloud Systems Operations**](./cloud-sysops/) | Centralized instance management, configuration, secure access, patching, and compliance with AWS Systems Manager |
+| [**Cloud Operations Engineering**](./cloud-operations/) | Operating EC2 fleets through centralized management, monitoring, compliance, security investigation, and proactive alerting |
 | [**Elastic Compute Architecture**](./elastic-compute/) | Transforming an EC2 web server into a multi-AZ, load-balanced, health-aware, automatically scaling compute tier |
 | [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
 | [**Containerized Compute**](./containerized-compute/) | Deploying containerized applications on Amazon ECS w/ EC2, task definitions, services, and Auto Scaling |
@@ -19,6 +19,6 @@ cloud infrastructure, systems operations, automation, serverless, databases, and
 
 AWS re/Start is an official Amazon Web Services (AWS) cohort-based workforce development training program designed to prepare learners for entry- to mid-level cloud careers, including roles such as systems administrator, cloud automation lead, infrastructure engineer, and more.
 
-The program combines instructor-led learning, scenario-based exercises, and hands-on labs across Linux, Python, networking, security, databases, automation, and core AWS Cloud skills — delivered through collaborating organizations around the world. I attend the program in New York City through Per Scholas.
+The program combines instructor-led learning, scenario-based exercises, and hands-on labs across Linux, Python, networking, security, databases, automation, and core AWS Cloud skills — delivered through collaborating organizations around the world. I attend the program in New York City through [Per Scholas](https://perscholas.org/).
 
-**View the official program site: [AWS re/Start](https://aws.amazon.com/training/restart/)**
+### View the official program site: [AWS re/Start](https://aws.amazon.com/training/restart/)

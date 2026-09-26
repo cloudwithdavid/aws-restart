@@ -6,7 +6,7 @@ Managing cloud systems through individual server logins becomes inefficient as a
 
 In this AWS re/Start lab, I used AWS Systems Manager to centrally inspect, configure, operate, and access a managed EC2 instance through Inventory, Run Command, Parameter Store, and Session Manager.
 
-## Key Concepts
+### Key Concepts
 
 - **AWS Systems Manager** — Centralized management service for operating and maintaining compute resources.
 - **Managed node** — A compute resource registered with Systems Manager so it can be centrally managed.
@@ -15,7 +15,7 @@ In this AWS re/Start lab, I used AWS Systems Manager to centrally inspect, confi
 - **Parameter Store** — Stores application configuration separately from the application that consumes it.
 - **Session Manager** — Provides interactive access to managed nodes through Systems Manager rather than traditional SSH access.
 
-## Lab Environment
+### Lab Environment
 
 AWS re/Start provided a managed EC2 instance with the SSM Agent, required IAM permissions, and supporting application resources.
 
