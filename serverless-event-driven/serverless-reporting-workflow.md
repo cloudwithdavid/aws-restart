@@ -11,6 +11,14 @@ In this AWS re/Start lab, I assembled a serverless reporting workflow using AWS 
 
 The architecture separated workflow orchestration from database access. The `salesAnalysisReport` Lambda function coordinated configuration, data retrieval, report generation, and delivery, while `salesAnalysisReportDataExtractor` handled database access. Managed AWS services provided scheduling, configuration, notifications, permissions, networking, and logging around those functions.
 
+### Key Concepts
+
+- **AWS Lambda** — Runs application code in response to events without managing servers.
+- **EventBridge schedule** — Starts the reporting workflow on a recurring schedule.
+- **Parameter Store** — Separates database and application configuration from code.
+- **Amazon SNS** — Delivers the generated report through notifications.
+- **IAM execution role** — Grants Lambda permission to access required AWS services.
+
 ### Lab Environment
 
 The AWS re/Start lab environment provided the existing café application, MySQL database running on an EC2 LAMP instance, IAM roles, database connection parameters, CLI host, and Lambda source packages used by the workflow.

@@ -14,6 +14,16 @@ The completed architecture placed an internet-facing Application Load Balancer a
 
 The workload moved behind an Application Load Balancer, with private EC2 capacity distributed across two Availability Zones and automatically adjusted by the Auto Scaling group.
 
+### Key Concepts
+
+- **Amazon Machine Image (AMI)** — Reusable image containing configured instance state.
+- **Launch template** — Defines how Auto Scaling launches EC2 instances.
+- **Application Load Balancer** — Provides a stable entry point and distributes traffic.
+- **Target group and health checks** — Route traffic only to healthy instances.
+- **Auto Scaling group** — Maintains and adjusts the desired EC2 fleet size.
+- **Target tracking** — Adjusts capacity in response to a CloudWatch metric target.
+- **Multi-AZ architecture** — Distributes compute across Availability Zones for resilience.
+
 ### Lab Environment
 
 AWS re/Start provided the base network environment and an existing configured EC2 web server.

@@ -18,6 +18,14 @@ I configured the AWS resources, deployed the function, triggered the workflow wi
 
 This extended the engineering pattern I practiced while completing the **AWS Cloud Quest: Generative AI Practitioner** credential, applying the same AI-assisted implementation and troubleshooting approach to an event-driven serverless workflow.
 
+### Key Concepts
+
+- **Amazon S3 event notification** — Emits an event when an object is created.
+- **AWS Lambda** — Processes the uploaded file on demand.
+- **Amazon SNS** — Publishes the word-count result for email delivery.
+- **CloudWatch Logs** — Provides runtime evidence for troubleshooting failed invocations.
+- **IAM permissions** — Control Lambda’s ability to read S3 objects and publish to SNS.
+
 The application uses a simple event-driven flow:
 
 ```mermaid
