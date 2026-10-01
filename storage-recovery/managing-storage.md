@@ -9,6 +9,15 @@ This lab focused on managing persistent AWS storage through two related workflow
 
 The lab moved beyond creating storage resources into basic storage lifecycle operations: **backup creation, retention, synchronization, and recovery.**
 
+### Key Concepts
+
+- **EBS snapshot lifecycle** — Automates snapshot creation, retention, and cleanup.
+- **Retention policy** — Defines how long backup copies should be preserved.
+- **Amazon S3 synchronization** — Copies local files to object storage.
+- **S3 Versioning** — Preserves prior object versions after overwrite or deletion.
+- **Object recovery** — Restores a deleted object from its version history.
+- **Lifecycle management** — Treats backup and recovery as ongoing operations rather than one-time actions.
+
 ### Lab Environment
 
 AWS provided two EC2 instances inside an existing VPC:

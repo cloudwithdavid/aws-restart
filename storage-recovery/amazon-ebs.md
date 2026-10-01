@@ -4,6 +4,16 @@
 
 This lab focused on the Linux storage path behind an Amazon EBS volume: attaching block storage to an EC2 instance, creating a filesystem on the device, mounting it into the Linux directory tree, persisting the mount configuration, and recovering stored data from an EBS snapshot.
 
+### Key Concepts
+
+- **Amazon EBS** — Persistent block storage attached to an EC2 instance.
+- **Block device** — The device interface Linux uses to access the EBS volume.
+- **Filesystem** — Organizes data into files and directories on the block device.
+- **Mount point** — Connects the filesystem to the Linux directory tree.
+- **`/etc/fstab`** — Persists the volume mount across reboots.
+- **EBS snapshot** — Point-in-time backup used to restore volume data.
+- **Recovery verification** — Confirms that restored storage contains the expected data.
+
 ### Lab Environment
 
 AWS re/Start provided the EC2 instance and supporting lab environment. My work focused on creating and configuring the EBS data volume, working with the Linux filesystem and mount configuration, creating a snapshot, restoring storage from that snapshot, and verifying that the original data was recoverable.

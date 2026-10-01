@@ -23,6 +23,14 @@ flowchart LR
 
 ECS managed the **workload layer**: which task definition to run and how many task copies should exist. The Auto Scaling Group supplied the **compute layer**: the EC2 container instances on which ECS could place those tasks.
 
+### Key Concepts
+
+- **Amazon ECS** — Orchestrates containerized workloads.
+- **ECS task definition** — Defines how an ECS task should run, including its container(s).
+- **ECS service** — Maintains the desired number of running tasks.
+- **ECS cluster** — Groups the compute capacity used to run tasks.
+- **`awsvpc` networking** — Gives each task its own network interface and private IP.
+
 ### Lab Environment
 
 AWS re/Start provided the sandbox environment and prerequisite resources used by the exercise.
