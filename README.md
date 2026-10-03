@@ -2,15 +2,17 @@
 
 # AWS re/Start Portfolio
 
-A focused collection of Cloud Engineering work from AWS re/Start — intentionally selected to explore and develop deeper understanding and hands-on experience across cloud infrastructure & operations, containers, serverless, storage, databases,and applied AI.
+A focused collection of Cloud Engineering work from AWS re/Start — intentionally selected to explore, develop deeper understanding, and hands-on experience across cloud infrastructure & operations, storage, databases, serverless, containers, and applied AI.
 
 |   Domain   | Focus |
 | ---------- | ----- |
-| [**Cloud Operations Engineering**](./cloud-operations/) | Operating EC2 fleets through centralized management, monitoring, compliance, security investigation, and proactive alerting |
 | [**Elastic Compute Architecture**](./elastic-compute/) | Transforming an EC2 web server into a multi-AZ, load-balanced, health-aware, automatically scaling compute tier |
-| [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
-| [**Containerized Compute**](./containerized-compute/) | Deploying containerized applications on Amazon ECS w/ EC2, task definitions, services, and Auto Scaling |
+| [**Cloud Operations Engineering**](./cloud-operations/) | Operating EC2 fleets through centralized management, monitoring, compliance, security investigation, and proactive alerting |
 | [**Storage & Recovery**](./storage-recovery/) | Managing persistent storage through EBS volumes, snapshots, restore workflows, S3 synchronization, and version recovery |
+| [**Database Migration / Modernization**](./rds-migration/) | Application and database modernization through migration from instance-hosted relational data to Amazon RDS |
+| [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows using scheduled and state-change triggers, managed services, and end-to-end validation |
+| [**Containerized Compute**](./containerized-compute/) | Deploying containerized applications on Amazon ECS with EC2, task definitions, services, and Auto Scaling |
+<!--| [**Agentic AI Systems**](./agentic-ai/) | Applied generative AI using Amazon Bedrock, grounded knowledge, model controls, and assistant-oriented workflows |-->
 
 ### Lab Environment
 
