@@ -14,7 +14,7 @@ The work combines hands-on provisioning, configuration and validation with reaso
 | [**Database Migration / Modernization**](./rds-migration/) | Application and database modernization through migration from instance-hosted relational data to Amazon RDS |
 | [**Serverless & Event-Driven Architecture**](./serverless-event-driven/) | Building serverless workflows triggered by schedules and state-change events, managed services, and end-to-end validation |
 | [**Containers & Orchestration**](./containers-orchestration/) | Deploying and orchestrating containerized workloads on Amazon ECS with EC2, desired state, task definitions, and Auto Scaling |
-<!--| [**Agentic AI Systems**](./agentic-ai/) | Generative AI solutions using Amazon Bedrock, grounded knowledge, model controls, and assistant-oriented workflows |-->
+| [**Agentic AI Systems**](./agentic-ai/) | Generative AI solutions using Amazon Bedrock, grounded knowledge, model controls, and assistant-oriented workflows |
 
 ### Lab Environment
 
