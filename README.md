@@ -2,7 +2,7 @@
 
 # AWS re/Start Portfolio
 
-A focused collection of Cloud Engineering work from AWS re/Start — intentionally selected to explore, develop deeper understanding, and hands-on experience across cloud infrastructure & operations, storage, databases, serverless, containers, and applied AI.
+A collection of Cloud Engineering work from AWS re/Start intentionally selected to explore, develop deeper understanding, and hands-on experience across cloud infrastructure & operations, storage, databases, serverless, containers, and applied AI.
 
 The work combines hands-on provisioning, configuration and validation with reasoning about system architecture and behavior.
 
@@ -19,6 +19,50 @@ The work combines hands-on provisioning, configuration and validation with reaso
 ### Lab Environment
 
 AWS re/Start labs use guided training environments with pre-provisioned resources. Each artifact documents the configuration, troubleshooting, validation, and technical work I performed within those environments.
+
+## Shared Engineering Foundations
+
+The portfolio is organized around distinct technical domains, but those domains don't capture the full range of engineering competencies demonstrated. The examples below illustrate how these shared foundations apply across different workloads and environments.
+
+### Networking & Security Principles
+
+- **Network segmentation and access boundaries:**
+    - [Elastic Compute](./elastic-compute/) places internet-facing load balancers in public subnets while keeping application instances private.
+    - [Database Migration](./rds-migration/) extends segmentation to a private database tier, restricting MySQL connectivity through security-group references.
+
+- **Workload connectivity across compute models:**
+    - [Serverless Reporting](./serverless-event-driven/serverless-reporting-workflow.md) connects Lambda to a private database through VPC networking and ENIs.
+    - [Containers & Orchestration](./containers-orchestration/) uses ECS `awsvpc` networking to give tasks independent private IPs and security-group boundaries. 
+
+- **Identity, permissions, and layered security:**
+    - [Serverless Reporting](./serverless-event-driven/serverless-reporting-workflow.md) applies IAM execution roles and service permissions.
+    - [CloudTrail Investigation](./cloud-operations/cloudtrail-investigation.md) connects AWS API activity, IAM identities, security-group exposure, and Linux authentication to investigate and remediate a security incident.  
+
+### Architectural Reasoning
+
+- **Workload and infrastructure boundaries:**
+    - [Elastic Compute](./elastic-compute/) demonstrates EC2 fleet capacity managed through Auto Scaling.
+    - [Containers & Orchestration](./containers-orchestration/) extends this distinction by separating ECS task desired state from EC2 host capacity, including the additional capacity needed during rolling deployments. 
+
+- **Workload fit and execution models:**
+    - [Serverless & Event-Driven Architecture](./serverless-event-driven/) uses scheduled and state-change triggers for intermittent workloads, reducing the need for continuously running compute while introducing dependencies across managed services.
+    - [Containers & Orchestration](./containers-orchestration/) demonstrates a contrasting model for maintaining long-running application workloads. 
+
+- **Separation of concerns and availability:**
+    - [Database Migration](./rds-migration/) separates application compute from persistent database state, externalizes configuration through Parameter Store, and distinguishes a multi-AZ subnet group from a database deployment with Multi-AZ failover.  
+
+### Linux Administration & CLI
+
+- **Linux storage administration:**
+    - [EBS Storage & Recovery](./storage-recovery/amazon-ebs.md) uses `mkfs`, `mount`, `/etc/fstab`, and filesystem inspection to transform attached block storage into a usable, persistent Linux filesystem.  
+
+- **Host and runtime inspection:**
+    - [Containers & Orchestration](./containers-orchestration/) uses Docker commands and `curl` to inspect running workloads and diagnose connectivity.
+    - [CloudTrail Investigation](./cloud-operations/cloudtrail-investigation.md) examines Linux authentication logs, processes, users, and SSH configuration during incident investigation.  
+
+- **Command-line infrastructure and data operations:**
+    - [Database Migration](./rds-migration/) combines AWS CLI provisioning with `mysqldump` export and database restoration.
+    - [Serverless Reporting](./serverless-event-driven/serverless-reporting-workflow.md) uses the AWS CLI to create and configure Lambda resources.
 
 ## ℹ️ About AWS re/Start
 
