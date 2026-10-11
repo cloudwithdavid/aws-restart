@@ -1,6 +1,8 @@
+# AWS re/Start Portfolio
+
 <img width="4747" height="970" alt="aws-restart-banner" src="https://github.com/user-attachments/assets/a668c6a6-3329-4b99-8621-be124a2d94c4" />
 
-# AWS re/Start Portfolio
+## About
 
 A collection of Cloud Engineering work from AWS re/Start intentionally selected to explore, develop deeper understanding, and hands-on experience across cloud infrastructure & operations, storage, databases, serverless, containers, and applied AI.
 
