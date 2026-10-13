@@ -1,4 +1,4 @@
-# AI HR Assistant: Agentic AI Solution on AWS
+# AI HR Assistant: GenAI Solution on AWS
 
 ## Overview
 
